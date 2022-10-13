@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       {/* <Counter /> */}
       {/* <TextColor /> */}
-      {/* <ArrayofObjects /> */}
+      <ArrayofObjects />
       {/* <DigitalClock /> */}
-      <Usestatehook />
+      {/* <Usestatehook /> */}
     </div>
   );
 }
