@@ -5,6 +5,8 @@ import TextColor from './components/ChangingTextColor';
 import ArrayofObjects from './components/ArrayofObjects';
 import DigitalClock from './components/DigitalClock';
 import Usestatehook from './components/Usestatehook';
+import Useeffecthook from './components/Useeffecthook';
+
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
       {/* <TextColor /> */}
       {/* <ArrayofObjects /> */}
       {/* <DigitalClock /> */}
-      <Usestatehook />
+      {/* <Usestatehook /> */}
+      <Useeffecthook />
     </div>
   );
 }

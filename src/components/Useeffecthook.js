@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-function DigiClock() {
+function Useeffecthook() {
 
     const [mytime, getMytime] = useState(" ");
 
@@ -25,4 +25,4 @@ function DigiClock() {
   )
 }
 
-export default DigiClock;
+export default Useeffecthook;
