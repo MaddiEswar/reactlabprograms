@@ -6,6 +6,22 @@ import ArrayofObjects from './components/ArrayofObjects';
 import DigitalClock from './components/DigitalClock';
 import Usestatehook from './components/Usestatehook';
 import Useeffecthook from './components/Useeffecthook';
+import Usecontexthook from './components/Usecontexthook';
+import Bmicalculator from './components/Bmicalculator';
+
+//blogInfo is for UseContext hook
+const blogInfo = {
+  React: {
+    post: "Learn useContext Hooks",
+    author: "Varun K"
+  },
+  NodeJS: {
+    post: "Node Commands",
+    author: "Veena M"
+  }
+};
+export const BlogContext  = React.createContext(blogInfo);
+
 
 
 function App() {
@@ -16,7 +32,13 @@ function App() {
       {/* <ArrayofObjects /> */}
       {/* <DigitalClock /> */}
       {/* <Usestatehook /> */}
-      <Useeffecthook />
+      {/* <Useeffecthook /> */}
+      
+      {/* <BlogContext.Provider value={blogInfo}>
+        <Usecontexthook />
+      </BlogContext.Provider> */}
+      {/* <Usecontexthook/> */}
+      <Bmicalculator />
     </div>
   );
 }
