@@ -4,6 +4,7 @@ import { useState } from "react";
 export default function Usestatehook(){
     const [item,setItem] = useState("");
     const [items,setItems] = useState([]);
+    
     const handleAddItem = () =>{
         setItems([...items , {"item":item, isStriked:false}]);
         setItem("");
