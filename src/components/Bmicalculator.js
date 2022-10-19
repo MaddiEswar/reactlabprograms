@@ -7,8 +7,8 @@ function Bmicalculator(){
     const handlebmi = () =>{
         //var p=[weight/height/height];
         var p=[Number(weight) / Number(height) / Number(height)] * 10000
-       setValue(p.toPrecision(1))
-       //setValue(p.toFixed(1))
+       //setValue(p.toPrecision(1))
+       setValue(p.toFixed(1))
         console.log(p);
         if(p<16){
             setbmi("severe thinness");

@@ -8,6 +8,8 @@ import Usestatehook from './components/Usestatehook';
 import Useeffecthook from './components/Useeffecthook';
 import Usecontexthook from './components/Usecontexthook';
 import Bmicalculator from './components/Bmicalculator';
+import AxiosApi from './components/AxiosApi';
+import FetchApi from './components/FetchApi';
 
 //blogInfo is for UseContext hook
 const blogInfo = {
@@ -38,7 +40,9 @@ function App() {
         <Usecontexthook />
       </BlogContext.Provider> */}
       {/* <Usecontexthook/> */}
-      <Bmicalculator />
+      {/* <Bmicalculator /> */}
+      {/* <AxiosApi /> */}
+      <FetchApi />
     </div>
   );
 }
