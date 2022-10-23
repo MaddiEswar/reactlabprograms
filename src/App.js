@@ -10,6 +10,9 @@ import Usecontexthook from './components/Usecontexthook';
 import Bmicalculator from './components/Bmicalculator';
 import AxiosApi from './components/AxiosApi';
 import FetchApi from './components/FetchApi';
+import EmiCalculator from './components/EmiCalculator';
+import HotelBilling from './components/HotelBilling';
+import ImageGrid from './components/ImageGrid';
 
 //blogInfo is for UseContext hook
 const blogInfo = {
@@ -42,7 +45,10 @@ function App() {
       {/* <Usecontexthook/> */}
       {/* <Bmicalculator /> */}
       {/* <AxiosApi /> */}
-      <FetchApi />
+      {/* <FetchApi /> */}
+      {/* <EmiCalculator /> */}
+      {/* <HotelBilling /> */}
+      <ImageGrid />
     </div>
   );
 }
