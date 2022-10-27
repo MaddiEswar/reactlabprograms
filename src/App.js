@@ -13,6 +13,7 @@ import FetchApi from './components/FetchApi';
 import EmiCalculator from './components/EmiCalculator';
 import HotelBilling from './components/HotelBilling';
 import ImageGrid from './components/ImageGrid';
+import RandomItemsIntolist from './components/RandomItemsIntolist';
 
 //blogInfo is for UseContext hook
 const blogInfo = {
@@ -48,7 +49,8 @@ function App() {
       {/* <FetchApi /> */}
       {/* <EmiCalculator /> */}
       {/* <HotelBilling /> */}
-      <ImageGrid />
+      {/* <ImageGrid /> */}
+      <RandomItemsIntolist />
     </div>
   );
 }
