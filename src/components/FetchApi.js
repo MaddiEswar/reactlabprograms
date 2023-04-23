@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 export default function FetchApi(){
     const [posts,setPosts] = useState([]);
     useEffect(() =>{
-        fetch("https://jsonplaceholder.typicode.com/posts/")
+        fetch("https://reqres.in/api/users?page=1")
         .then((response) => response.json())
         .then((result) => setPosts(result))
         .catch((err) => console.log(err));
@@ -17,7 +17,9 @@ export default function FetchApi(){
                     posts.map((d) =>(
                         <tr key={d.id}>
                             <td>{d.id}</td>
-                            <td>{d.title}</td>
+                            <td>{d.email}</td>
+                            <td>{d.first_name}</td>
+                            <td>{d.last_name}</td>
                         </tr>
                     ))
                 }
